@@ -1,10 +1,6 @@
-import java.util.ArrayList;
 
 public class ServiceAdmin implements Service {
-    public ArrayList<String> findAll(){
-        return new ArrayList<String>() {{
-            add("A");
-            add("B");
-        }};
+    public String getProfile() {
+        return "perfil administrador";
     }
 }
